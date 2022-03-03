@@ -1203,7 +1203,13 @@ class MQTTMediaPlayer(MediaPlayerEntity):
                 "msg_callback": multiroommaster_received,
                 "qos": self._config[CONF_QOS],
             }
+
+        self._sub_state = subscription.async_prepare_subscribe_topics(
+            self.hass,
+            self._sub_state,
+            topics,
+        )
         
         self._sub_state = await subscription.async_subscribe_topics(
-            self.hass, self._sub_state, topics
+            self.hass, self._sub_state
         )

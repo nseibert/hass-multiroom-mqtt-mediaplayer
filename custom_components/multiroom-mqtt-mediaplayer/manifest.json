@@ -1,7 +1,7 @@
 {
     "domain": "multiroom-mqtt-mediaplayer",
     "name": "Multiroom MQTT Media Player",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "documentation": "https://github.com/jonaseickhoff/hass-multiroom-mqtt-mediaplayer",
     "after_dependencies": [
         "mqtt"

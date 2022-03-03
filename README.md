@@ -9,6 +9,8 @@ It works perfectly with [Mini Media Player](https://github.com/kalkih/mini-media
 
 ## Installation
 
+**Version 1.0.2 requires Home Assistant 2022.3.0 or higher.**
+
 ### Install with [HACS](https://github.com/custom-components/hacs)
 
 Go to the HACS store and use the repo url https://github.com/nseibert/hass-multiroom-mqtt-mediaplayer and add this as a custom repository under settings.

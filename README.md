@@ -7,8 +7,6 @@ This MQTT MediaPlayer has initially been built to interface with the [musiccast2
 
 It works perfectly with [Mini Media Player](https://github.com/kalkih/mini-media-player) and [Roon MQTT extension](https://github.com/nseibert/roon-extension-mqtt)
 
-**Version 1.0.2 requires Home Assistant 2022.3.0 or higher.**
-
 ## Installation
 
 ### Install with [HACS](https://github.com/custom-components/hacs)
